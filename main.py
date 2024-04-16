@@ -27,9 +27,9 @@ import re
 import os
 import io
 
-API_ID = 10577960
-API_HASH = "80fd047285f4e94ca80311928b6bb5da"
-BOT_TOKEN = "6150009394:AAH-AewKKW_9n8a9qSDOl9rxbMo7dErrKCE"
+API_ID = 22170620
+API_HASH = "8c15defa8633511dd14b19b5770cb9e8"
+BOT_TOKEN = "7146439451:AAHWUl57EYfvc1GpSuSjoiohxl15JW2zxtY"
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
@@ -101,7 +101,7 @@ async def account_login(bot: Client, m: Message):
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
 
-    editable = await editable.edit("Downloaded By📥")
+    editable = await editable.edit("Downloaded By Killer Boss📥")
     input0: Message = await bot.listen(editable.chat.id)
     raw_text0 = input0.text 
 
